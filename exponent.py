@@ -17,7 +17,3 @@ def exp():
     
     
     return result
-
-print(exp())
-print(exp())
-print(exp())

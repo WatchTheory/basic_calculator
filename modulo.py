@@ -16,7 +16,3 @@ def modulo():
         return "Cancelling function. Input must be a number"
     return result
 
-
-print(modulo())
-print(modulo())
-print(modulo())
