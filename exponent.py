@@ -9,8 +9,8 @@ def exp():
         result: the result of x to the power of y
     """
     try:
-        x = int(input("Enter the first number: "))
-        y = int(input("Enter the second number: "))
+        x = float(input("Enter the first number: "))
+        y = float(input("Enter the second number: "))
         result = x ** y
     except:
         return "Cancelling function. Input must be a number"
