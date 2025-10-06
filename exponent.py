@@ -8,8 +8,16 @@ def exp():
     outputs:
         result: the result of x to the power of y
     """
-    x = int(input("Enter the first number: "))
-    y = int(input("Enter the second number: "))
-    result = x ** y
+    try:
+        x = int(input("Enter the first number: "))
+        y = int(input("Enter the second number: "))
+        result = x ** y
+    except:
+        return "Cancelling function. Input must be a number"
+    
+    
     return result
 
+print(exp())
+print(exp())
+print(exp())
